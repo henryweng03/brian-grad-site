@@ -53,48 +53,43 @@ export default function Home() {
   const images = [
     {
       id: "image1",
-      src: "/yannik/IMG_1403.png",
-      alt: "Yannik image 1",
+      src: "/brian/IMG_0833.png",
+      alt: "Brian image 1",
     },
     {
       id: "image2",
-      src: "/yannik/IMG_1885.png",
-      alt: "Yannik image 2",
+      src: "/brian/IMG_0875.png",
+      alt: "Brian image 2",
     },
     {
       id: "image3",
-      src: "/yannik/IMG_5779.png",
-      alt: "Yannik image 3",
+      src: "/brian/IMG_1988.png",
+      alt: "Brian image 3",
     },
     {
       id: "image4",
-      src: "/yannik/IMG_8395.png",
-      alt: "Yannik image 4",
+      src: "/brian/IMG_2079.png",
+      alt: "Brian image 4",
     },
     {
       id: "image5",
-      src: "/yannik/IMG_1500.png",
-      alt: "Yannik image 5",
+      src: "/brian/IMG_6233.png",
+      alt: "Brian image 5",
     },
     {
       id: "image6",
-      src: "/yannik/IMG_1554.png",
-      alt: "Yannik image 6",
+      src: "/brian/IMG_6313.png",
+      alt: "Brian image 6",
     },
     {
       id: "image7",
-      src: "/yannik/IMG_1587.png",
-      alt: "Yannik image 7",
+      src: "/brian/IMG_8021.png",
+      alt: "Brian image 7",
     },
     {
       id: "image8",
-      src: "/yannik/IMG_1782.png",
-      alt: "Yannik image 8",
-    },
-    {
-      id: "image9",
-      src: "/yannik/IMG_9460 2.png",
-      alt: "Yannik image 9",
+      src: "/brian/IMG_9584.png",
+      alt: "Brian image 8",
     },
   ];
 
@@ -119,41 +114,35 @@ export default function Home() {
       {/* Bottom half with text */}
       <div className="px-4 pb-8 pt-96 flex items-center justify-center">
         <div className="max-w-xl font-[family-name:var(--font-eb-garamond)]">
-          <h1 className="text-4xl mb-6 text-gray-900 tracking-tight">
-            Yannik,
-          </h1>
+          <h1 className="text-4xl mb-6 text-gray-900 tracking-tight">Brian,</h1>
           <p className="text-lg leading-relaxed mb-4 text-gray-900">
-            I'm so lucky to have found someone who found my rant on optimizing
-            Chipotle orders endearing. I think that moment somehow encapsulates
-            a lot of what has made our friendship special - your genuine
-            curiosity about everything and our shared ability to find joy in the
-            simple and absurd. From that first dinner at Terun to our countless
-            adventures since, you've brought such a unique energy to my life 😊
+            I'm so grateful our paths crossed at that Stanford Bay Area meetup,
+            even if it took a full year and some poker games to actually become
+            friends. As I was writing this, I looked through our texts and found
+            some stuff about how we wanted to self-study Swift and take CS 111
+            at UCLA together summer 2022. Neither happened LMAO. But I think
+            that experience embodies some aspect of your enthusiasm and optimism
+            that I so appreciate about our friendship.
           </p>
           <p className="text-lg leading-relaxed mb-4 text-gray-900">
-            Our weekly goal lunches became one of my favorite Stanford
-            traditions - even though we'd inevitably yap about everything except
-            our actual goals. I'll also always remember the late nights
-            exploring campus, the time spent being the number one and two chai
-            enjoyers at BOB, and our trips to Berkeley, New York, and Vancouver.
-            As you head to Jane Street, I know you'll do amazing things, but I
-            hope you never lose that ability to smile at anything, to ask the
-            kinds of questions that change how people think, and to be so down
-            to clown.
+            I love your laugh — it's truly contagious and makes even ordinary
+            moments feel special. Whether we were grinding out the 224N final
+            projection, wandering through Redwood City on morning adventures, or
+            somehow morphing casual conversations into philosophical frameworks
+            about the world, you make everything more joyful.
           </p>
           <p className="text-lg leading-relaxed mb-8 text-gray-900">
-            Thank you for being someone I can tell anything to - from the most
-            trivial mundane thoughts to the harder, more emotional things. Thank
-            you for seeing me, for all the special moments, and for showing me
-            how to approach life with more curiosity and joy. I'll miss having
-            you nearby at Stanford, but I know our friendship transcends
-            distance. Here's to all the adventures ahead!
+            I'll never forget Chinese New Year when you invited me to make
+            dumplings with your family. Moments like that, where you put so much
+            thought into making people feel welcome and included, show what an
+            incredible friend you are. I'm so lucky to have you in my life, and
+            excited for all the adventures to come!
           </p>
 
           {/* Henry's signature */}
           <div className="mt-8">
             <p className="text-lg text-gray-900 mb-4">
-              With love and admiration,
+              With love and appreciation,
             </p>
             <div className="flex">
               <img
